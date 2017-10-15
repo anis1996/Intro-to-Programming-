@@ -1,0 +1,78 @@
+import java.util.Arrays;
+/**
+ * encapsulates a 2d array of Strings and provides method to manupulate it
+ */
+public class TwoDUtil
+{
+    private String[][] twoArray ;
+    /**
+     * intilaize the 2dArray
+     * @param array to intilaize the 2dArray
+     */
+    public TwoDUtil(String[][] array)
+    {
+        twoArray = array;         
+    }
+
+    /**
+     * get the shortest string from 2dArray
+     * @return shortest string 
+     */
+    public String shortest() 
+    {
+        int smallest = twoArray[0][0].length();
+        String shortest = twoArray[0][0];
+        for(int i =0; i<twoArray.length;i++)
+        { 
+            for(int j=0; j<twoArray[0].length;j++)
+            {
+                if (twoArray[i][j].length() < smallest)
+                {
+                    shortest = twoArray[i][j];
+                    smallest = twoArray[i][j].length();
+                }
+            }
+        }
+        return shortest;
+    }
+
+    /**
+     * get the words in lastColumn with diving *   
+     * @return words in lastColumn with diving *
+     */
+    public String lastColumn() 
+    {
+        String words = twoArray[0][twoArray[0].length-1];
+        for(int i =1; i<twoArray.length;i++)
+        { 
+            words = words + "*" + twoArray[i][twoArray[0].length-1];
+        }
+        return words;
+    }
+
+    /**
+     * check the word how many times appear in the 2dArray
+     * @param letter to check the words 
+     * @return number of words appear in the 2dArray
+     */
+    public int howMany(char letter)
+    {
+        int charcter = 0;   
+        for(int i =0; i<twoArray.length;i++)
+        { 
+            for(int j=0; j<twoArray[0].length;j++)
+            {
+                String word = twoArray[i][j].toLowerCase();
+                for(int k = 0; k < word.length(); k++)
+                {
+                    if (letter == word.charAt(k))
+                    {
+                        charcter++;
+                    }
+                }
+            }
+        }
+        return charcter;
+    }
+
+}

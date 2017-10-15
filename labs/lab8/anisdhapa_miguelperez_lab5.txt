@@ -1,0 +1,23 @@
+anis dhapa - scriber 
+migul perez - driver 
+
+5A 
+2.designer
+3.for 2 characters it just changed the position of two word, for 1 character and empty string it gives run time error. 
+7. (i+1,word.lenght()) - (i+1,i+2)
+10. randomint(i+1,word.length()-1)
+
+5B
+3.Math.toRadians();
+4.double angle = Math.random()*360;
+     Math.toRadians(angle);
+5. it shows the picture at diffrent place 
+6. it changes the location of picture.
+7. we get the picture at diffrent places everytime
+8.it shows the random design.
+9.it keeps moving and stop afte certain time.
+
+5C
+2.50
+3. for horizontal we get the y value from another point, for horizontal we get the x value from the another point and for the 45 degree we get the distance 4.24699 because we already done with hand and verify answer
+     

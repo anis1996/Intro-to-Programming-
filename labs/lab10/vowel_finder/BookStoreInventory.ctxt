@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=BookStoreInventory()
+comment0.text=\r\n\ intialize\ the\ instance\ variabel\ \r\n
+comment1.params=book
+comment1.target=void\ add(Book)
+comment1.text=\r\n\ add\ the\ book\ into\ bookStore\ \r\n\ @param\ book\ to\ add\ \r\n
+comment2.params=name
+comment2.target=void\ remove(java.lang.String)
+comment2.text=\r\n\ remove\ the\ book\ from\ book\ store\ \r\n\ @param\ name\ to\ remove\ \r\n
+comment3.params=name
+comment3.target=boolean\ contains(java.lang.String)
+comment3.text=\r\n\ check\ the\ bookStore\ and\ see\ there\ is\ a\ given\ book\ or\ not\ \r\n\ @param\ name\ to\ check\ \r\n\ @return\ the\ false\ or\ true\ \r\n
+comment4.params=
+comment4.target=java.util.ArrayList\ list()
+comment4.text=\r\n\ get\ the\ list\ of\ all\ books\ \r\n\ @return\ the\ list\ of\ all\ books\r\n
+numComments=5

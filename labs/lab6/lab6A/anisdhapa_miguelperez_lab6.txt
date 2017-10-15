@@ -1,0 +1,97 @@
+anis dhapa - driver 
+migul perez - scriber
+1A
+public class Word
+{
+    /**
+    Tests whether a letter is a vowel
+    @param letter a string of length 1
+    @return true if letter is a vowel
+     */
+    public boolean isVowel(String letter)
+    {
+        if (letter.equals("a"))
+        {return true;
+        }else if (letter.equals("e"))
+        {return true;
+        }else if (letter.equals("i"))
+        {return true;
+        }else if (letter.equals("o"))
+        {return true;
+        }else if (letter.equals("y"))
+        {return true;
+        }else
+        {
+            return false;
+        }
+    }
+2.public class Word
+{
+    /**
+    Tests whether a letter is a vowel
+    @param letter a string of length 1
+    @return true if letter is a vowel
+     */
+    public boolean isVowel(String letter)
+    {  String letter1 = letter.toLowerCase();
+        if (letter1.equals("a"))
+        {return true;
+        }else if (letter1.equals("e"))
+        {return true;
+        }else if (letter1.equals("i"))
+        {return true;
+        }else if (letter1.equals("o"))
+        {return true;
+        }else if (letter1.equals("y"))
+        {return true;
+        }else if  (letter1.equals("u"))
+        {return true;
+        }
+        {
+            return false;
+        }
+    }
+}
+3.
+public class Word
+{
+    /**
+    Tests whether a letter is a vowel
+    @param letter a string of length 1
+    @return true if letter is a vowel
+     */
+    public boolean isVowel(String letter)
+    {  String letter1 = letter.toLowerCase();
+       if (letter1.equals("a") || letter1.equals("e") || letter1.equals("i") || letter1.equals("o") || letter1.equals("y") ) 
+        {return true;
+        }else
+        {
+            return false;
+        }
+        
+    }
+}
+4.public class Word
+{
+    /**
+    Tests whether a letter is a vowel
+    @param letter a string of length 1
+    @return true if letter is a vowel
+     */
+    public boolean contains(String str)
+    {  String letter1 = str.toLowerCase();
+       if (letter1.contains("a") || letter1.contains("e") || letter1.contains("i") || letter1.contains("o") || letter1.contains("y") ) 
+        {return true;
+        }else
+        {
+            return false;
+        }
+        
+    }
+}
+ B
+1. return (row == 0 || column == 0);  
+3. return (row % 2 == 0 &&  column%1 == 0);   
+5. return (row%2 == column%2 ) ; 
+7.return (row > 2 && row < 7 && column%1 == 0) ; 
+9. return (row%2 == column %2 && row > 7 == column < 2); 

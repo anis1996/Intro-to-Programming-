@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=name\ price
+comment0.target=Product(java.lang.String,\ double)
+comment0.text=\r\n\ Constructs\ a\ Product\ with\ a\ price\ and\ a\ description\r\n\ @param\ thePrice\ the\ price\ of\ this\ Product\r\n\ @param\ name\ -\ the\ name\ of\ this\ product\r\n
+comment1.params=
+comment1.target=double\ getPrice()
+comment1.text=\r\n\ Gets\ the\ price\r\n\ @return\ the\ price\ of\ this\ Ptoduct\ object\r\n
+comment2.params=
+comment2.target=java.lang.String\ getName()
+comment2.text=\r\n\ Gets\ the\ name\r\n\ @return\ the\ name\ of\ the\ Product\ object\r\n
+comment3.params=percent
+comment3.target=void\ reducePrice(double)
+comment3.text=\r\n\ Reduces\ the\ price\ of\ this\ product\ by\ the\ give\ percentage\r\n\ @param\ percent\ the\ percentage\ to\ reduce\ the\ priice\ by\r\n
+comment4.params=percent
+comment4.target=void\ increasePrice(double)
+comment4.text=\r\n\ Increases\ the\ price\ by\ the\ given\ percent\r\n\ @param\ percent\ the\ percent\ to\ increase\ the\ price\ by\r\n
+comment5.params=
+comment5.target=int\ compareTo()
+numComments=6

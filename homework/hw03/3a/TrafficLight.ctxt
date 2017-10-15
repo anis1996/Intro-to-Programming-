@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=xPoint\ yPoint
+comment0.target=TrafficLight(int,\ int)
+comment0.text=\r\n\ construct\ a\ TrafficLight\ with\ given\ x\ and\ y\ points.\r\n\ @param\ xpoint\ intialize\ x\ point\ \r\n\ @param\ ypoint\ intialize\ y\ point\r\n
+comment1.params=
+comment1.target=void\ draw()
+comment1.text=\r\n\ draw\ a\ trafficlight\ at\ diffrent\ points\ \r\n
+numComments=2

@@ -1,0 +1,87 @@
+Anis Dhapa - scriber 
+Miguel Perez - driver 
+A
+1. a,b,c,e
+3.
+create empty String 
+ for ( i = 0; i< word.length();i++)
+add one string which contains the letter of i 
+if is vowel 
+add to the String 
+otherwise do nothing 
+i++;
+4. yes it does work.
+5. in physical we know what actully we get and in the process inside computer we cannot find the problem why code does not work perfectly but we can know that in ppysical.
+B
+1.once 
+2.create empty String 
+ for ( i = 0; i< word.length();i++)
+add one string which contains the letter of i 
+if is vowel 
+add to the String 
+otherwise add to the string after vowels 
+
+i++;
+4. we use the once so we do not need to improve.
+C
+1. we add the for loop in getvowelsfirst which get the String without vowels and add to the result.
+2.new String which get the String without vowel.
+3.we use the is not vowel method to get the String.
+4.it is the same psuedocode but we change the is vowel to is not vowel.
+D
+2.
+while i < text.length().
+ while i < text.length() and the ith letter is a vowel
+         i++ 
+4. 
+ String a = "";
+     String c = "";
+     int i = 0;
+      int counter = 0;
+      while (i < text.length())
+      {
+         String letter = text.substring(i, i + 1); 
+         if (isVowel(letter))
+         { 
+              while (i<text.length() && isVowel(text.substring(i,i+1)))
+              
+              { a = a+letter;
+                  i++;
+                  
+                }
+                if (c.length()<a.length())
+                {
+                    c = a;
+                    
+                }
+                a = "";
+            }else 
+            {
+            i++;
+        }
+5. String a = "";
+     String c = "";
+     int i = 0;
+      int counter = 0;
+      while (i < text.length())
+      {
+         String letter = text.substring(i, i + 1); 
+         if (isVowel(letter))
+         { 
+              while (i<text.length() && isVowel(text.substring(i,i+1)))
+              
+              { a = a+letter;
+                  i++;
+                  
+                }
+                if (c.length()<a.length())
+                {
+                    c = a;
+                    
+                }
+                a = "";
+            }else 
+            {
+            i++;
+        }
+6.second 

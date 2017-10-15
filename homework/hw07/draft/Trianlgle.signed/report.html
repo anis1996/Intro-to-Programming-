@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Version" content="0.3"/>
+<meta name="Submission" content="16101322058043164881959590118"/>
+<meta name="Problem" content="1607171519dlbkzr8v0w11yk2t8rvimkznd"/>
+<meta name="Level" content="1"/>
+<meta name="Time" content="2016-10-14T05:05:59Z"/>
+<meta name="ID" content="Trianlgle"/>
+<meta name="User" content="16082910512695083600830930671"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header run">Program runs</p>
+<p class="header run">Testing Trianlgle.java</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: How many rows in the triangle? -3
+How many rows in the triangle? 0
+How many rows in the triangle? 4
+4</pre>
+<span class="pass">pass</span><p class="item">Test 1</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: How many rows in the triangle? 5.3
+How many rows in the triangle? xx
+How many rows in the triangle? 10
+10</pre>
+<span class="pass">pass</span><p class="header studentFiles">Student files</p>
+<p class="caption">Trianlgle.java:</p>
+<table class="file"><tr><td><pre><span class="linenumber">  1</span>
+<span class="linenumber">  2</span>
+<span class="linenumber">  3</span>
+<span class="linenumber">  4</span>
+<span class="linenumber">  5</span>
+<span class="linenumber">  6</span>
+<span class="linenumber">  7</span>
+<span class="linenumber">  8</span>
+<span class="linenumber">  9</span>
+<span class="linenumber"> 10</span>
+<span class="linenumber"> 11</span>
+<span class="linenumber"> 12</span>
+<span class="linenumber"> 13</span>
+<span class="linenumber"> 14</span>
+<span class="linenumber"> 15</span>
+<span class="linenumber"> 16</span>
+<span class="linenumber"> 17</span>
+<span class="linenumber"> 18</span>
+<span class="linenumber"> 19</span>
+<span class="linenumber"> 20</span>
+<span class="linenumber"> 21</span>
+<span class="linenumber"> 22</span>
+<span class="linenumber"> 23</span>
+<span class="linenumber"> 24</span>
+<span class="linenumber"> 25</span>
+<span class="linenumber"> 26</span>
+<span class="linenumber"> 27</span>
+<span class="linenumber"> 28</span>
+<span class="linenumber"> 29</span>
+<span class="linenumber"> 30</span>
+<span class="linenumber"> 31</span>
+<span class="linenumber"> 32</span>
+<span class="linenumber"> 33</span>
+<span class="linenumber"> 34</span>
+<span class="linenumber"> 35</span>
+<span class="linenumber"> 36</span>
+</pre></td><td><pre>import java.util.Scanner;
+
+public class Trianlgle
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        boolean b = false;
+        
+       
+        while(!b)
+        {
+            System.out.print("How many rows in the triangle? ");
+        if (in.hasNextInt())
+        {
+         
+         int c = in.nextInt();
+         if (c&gt;0)
+         {
+             b = true;
+             
+             
+             System.out.print(c);
+            }
+        }else if (in.hasNextDouble())
+{
+    double c = in.nextDouble();
+           
+}else 
+{String c = in.next();
+          
+}
+}
+
+}
+}
+</pre></td></tr></table>
+<p class="header score">Score</p>
+<p class="score">2/2</p>
+<p class="download"><a href="Trianlgle.signed.zip">Download</a></p>
+<div class="footnotes"><div class="footnote">2016-10-14T05:05:59Z</div>
+</div>
+</body></html>

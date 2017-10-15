@@ -1,0 +1,19 @@
+Anis Dhapa - scriber
+Miguel Perez - driver
+
+A 
+1. it draws two clocks.
+3. the clock is just whole yellow circle.
+4.by just calling the method draw method from super class.
+6. hour is private variables of super class. we can get access by just calling getHours method from super class.
+7.it shows the clock wth blue background.
+13. it shows clocks with thier name on head.
+
+C.
+1.it shows the project with two house and two dogs.
+6.we already check it has drawable method.
+7.it has drawable interface
+
+D.
+1.doesnt move 
+5.it does not compile. it gives an exception error.

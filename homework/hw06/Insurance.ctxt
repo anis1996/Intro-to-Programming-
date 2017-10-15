@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=p
+comment0.target=Insurance(Person)
+comment0.text=\r\n\ Constructs\ an\ Insurance\ object\ with\ the\ given\ Person\r\n\ @param\ p\ the\ Person\ for\ this\ Insurance\r\n
+comment1.params=
+comment1.target=int\ clientAge()
+comment1.text=\r\n\ get\ the\ age\ of\ the\ client\ \r\n\ @return\ the\ age\ of\ client\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ clientGender()
+comment2.text=\r\n\ get\ the\ gender\ of\ the\ client\ \r\n\ @return\ the\ gender\ of\ the\ client\ \r\n
+comment3.params=
+comment3.target=void\ incrementAge()
+comment3.text=\r\n\ increase\ age\ of\ the\ client\ by\ 1\ year.\r\n
+comment4.params=
+comment4.target=double\ monthlyPremium()
+comment4.text=\r\n\ get\ the\ monthly\ insurance\ of\ the\ person\ by\ their\ age\ and\ gender\r\n\ @return\ monthly\ premium\ of\ \ the\ person\ \r\n
+numComments=5

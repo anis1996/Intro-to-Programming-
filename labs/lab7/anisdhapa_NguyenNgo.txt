@@ -1,0 +1,29 @@
+anis dhapa - scriber 
+Nguyen Ngo Driver
+A
+2
+start and move forward and find front has window or wall 
+if there is wall or window turn left 
+check there is wall in right if no you find window
+if yes 
+
+check front has window or wall if yes turn left and move forward
+ if not move forward 
+
+
+3. 
+the window were be in corner the program wont work.
+4. 
+try the window in diffrent places.
+5
+add the method which is right has a window? if yes return 
+if no move forward.
+6.
+the solution which solve the problem 3 does solve the other problems.
+
+B
+1. the program runs exactly what we plan and it finds the window and stops.
+2. just changed the window's xaxis and y-axis to 0 and 3.5.
+3. i used the window's x-axis to 0.5 and y-axis to 6.
+4. it doesn't stop because yet we did not modify the find window method.
+6. it does find a window and when it finds a window it stops.

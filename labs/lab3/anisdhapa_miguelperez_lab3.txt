@@ -1,0 +1,41 @@
+anisdhapa - scriber
+miguel perez - driver 
+3A
+
+3. it does not do anything with y because we did not declare value of y yet.
+6. it is not showing any picture because we did not use any method to draw robot.
+9. it moves the robot by its width pixel to x direction(right).
+
+3B
+2. we compile the code to check it works.
+5. The robot is at 2*width now.
+6. It's not showing anything.
+8. The robot is now 5 units right and 5 units down.
+9. i would move robot -5 units horizontally  and -5 units vertically.
+
+3C
+1. this method is accessor because it doesnt change original variable or value.
+2. 610 pixel
+5. 2 units 
+6. moveHorizontaly and we already update it by x = unit + x : 
+8. put value in movevertical method and check we get the same value in getY() method.
+
+3D
+
+2. it shows the robot with moved 2units right and print 2 and Expected:2
+4. it shows robot disappear and we got value -2 for ya and 2 for x.
+5. they are 
+6. we change public int getX() to public int getWidth() and return x to return width.
+7. everthing stay exact same way it was.
+9. we do not need these variable any longer.yes they can not eliminated beacause we still need it for other method.
+10. since we don't need to elimiated x and y. they run in pixles.
+11.we do not need to re-run 
+
+3E
+
+1. use moveHOrizontally method
+2. robot 
+4. I added a test case to the MoveTester class.
+6. pic.translate();
+7.yes
+8.second method test case because you dont need to worry about go back and forward.

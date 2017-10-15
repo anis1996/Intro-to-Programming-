@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=theFirst\ theMiddleInitial\ theLast
+comment0.target=Emblem(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ initialize\ the\ firstname,\ middleintial\ and\ lastname\r\n\ @param\ theFirst\ intialize\ the\ firstName\ \r\n\ @param\ theMiddleInitial\ intialize\ the\ middleIntial\r\n\ @param\ theLast\ intialize\ the\ lastName\r\n
+comment1.params=theFirst\ theLast
+comment1.target=Emblem(java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ initiallize\ the\ firstname\ and\ lastname\ without\ middleinitial\r\n\ @param\ theFirst\ intialize\ the\ firstname\r\n\ @param\ theLast\ intialize\ the\ lastname\r\n
+comment2.params=
+comment2.target=java.lang.String\ getFirst()
+comment2.text=\r\n\ get\ the\ first\ name\ \r\n\ @return\ firstName\r\n
+comment3.params=
+comment3.target=java.lang.String\ getMiddleInitial()
+comment3.text=\r\n\ get\ the\ middleInitial\r\n\ @return\ middleInitial\r\n
+comment4.params=
+comment4.target=java.lang.String\ getLast()
+comment4.text=\r\n\ get\ the\ lastname\r\n\ @return\ lastName\r\n
+numComments=5

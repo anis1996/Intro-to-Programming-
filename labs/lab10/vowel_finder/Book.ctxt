@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name\ price
+comment0.target=Book(java.lang.String,\ double)
+comment0.text=\r\n\ intialize\ the\ bookname\ and\ price\ of\ book\ \r\n\ @param\ name\ to\ give\ name\ \r\n\ @param\ price\ to\ give\ price\ to\ book\ \r\n
+comment1.params=newPrice
+comment1.target=void\ setPrice(double)
+comment1.text=\r\n\ set\ the\ new\ price\ of\ book\ \r\n\ @param\ newPrice\ to\ set\ the\ price\r\n
+comment2.params=title
+comment2.target=void\ setTitle(java.lang.String)
+comment2.text=\r\n\ set\ the\ title\ of\ book\ \r\n\ @param\ title\ to\ set\ new\ name\ of\ book\ \r\n
+comment3.params=
+comment3.target=double\ getPrice()
+comment3.text=\r\n\ get\ the\ price\ of\ book\r\n\ @return\ price\ of\ book\ \r\n
+comment4.params=
+comment4.target=java.lang.String\ getTitle()
+comment4.text=\r\n\ get\ the\ name\ of\ book\ \r\n\ @return\ name\ of\ book\ \r\n
+numComments=5

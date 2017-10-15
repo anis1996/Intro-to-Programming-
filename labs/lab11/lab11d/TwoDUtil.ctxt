@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=array
+comment0.target=TwoDUtil(java.lang.String[][])
+comment0.text=\r\n\ intilaize\ the\ 2dArray\r\n\ @param\ array\ to\ intilaize\ the\ 2dArray\r\n
+comment1.params=
+comment1.target=java.lang.String\ shortest()
+comment1.text=\r\n\ get\ the\ shortest\ string\ from\ 2dArray\r\n\ @return\ shortest\ string\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ lastColumn()
+comment2.text=\r\n\ get\ the\ words\ in\ lastColumn\ with\ diving\ *\ \ \ \r\n\ @return\ words\ in\ lastColumn\ with\ diving\ *\r\n
+comment3.params=letter
+comment3.target=int\ howMany(char)
+comment3.text=\r\n\ check\ the\ word\ how\ many\ times\ appear\ in\ the\ 2dArray\r\n\ @param\ letter\ to\ check\ the\ words\ \r\n\ @return\ number\ of\ words\ appear\ in\ the\ 2dArray\r\n
+numComments=4

@@ -1,0 +1,48 @@
+Anis Dhapa – Driver 
+Miguel perez – Scriber 
+ 2B
+8.  Right-click on the Rectangle class and create a new Rectangle(30, 10, 20, 30). Right-click on the red blob with name rectangle2 and select the draw method.
+2C
+9. 
+/**
+ * Write a description of class RobotDemo here.
+ * 
+ * @author (ANISDHAPA) 
+ * @version (09/02/2016)
+ */
+public class RobotDemo
+{
+  public static void main(String[] args)
+  {
+      Robot fred = new Robot();
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      
+      11.
+public class RobotDemo
+{
+  public static void main(String[] args)
+  {
+      Robot fred = new Robot(5, 3, "roomba.png"); 
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      fred.moveForward();
+      fred.turnRight();
+      
+      
+      
+    }
+}
+      
+    }
+}

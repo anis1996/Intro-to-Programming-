@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.params=name\ genre
+comment0.target=Book(java.lang.String,\ java.lang.String)
+comment0.text=\r\n\ intialize\ the\ title\ and\ genre\ of\ Book\ \r\n\ @param\ name\ to\ intilize\ the\ name\ \r\n\ @param\ genre\ to\ intiliaze\ the\ genre\r\n
+comment1.params=
+comment1.target=java.lang.String\ getTitle()
+comment1.text=\r\n\ get\ the\ titile\ of\ the\ book\ \r\n\ @return\ the\ title\ of\ the\ book\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ getGenre()
+comment2.text=\r\n\ get\ the\ genre\ of\ the\ book\ \r\n\ @return\ the\ genre\ of\ the\ book\ \r\n
+comment3.params=otherObject
+comment3.target=int\ compareTo(java.lang.Object)
+numComments=4

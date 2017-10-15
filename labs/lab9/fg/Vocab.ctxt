@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=word
+comment0.target=Vocab(java.util.ArrayList)
+comment0.text=\r\n\ intialize\ the\ array\ list\ \r\n\ @param\ word\ intialiaze\ the\ words\ array\ list.\r\n
+comment1.params=
+comment1.target=java.lang.String\ longest()
+comment1.text=\r\n\ get\ the\ longest\ word\ from\ words\r\n\ @return\ the\ longest\ word\ \r\n
+comment2.params=
+comment2.target=double\ averageLength()
+comment2.text=\r\n\ get\ the\ avaereage\ length\ of\ the\ words\ of\ arraylist\ \r\n\ @return\ the\ number\ of\ average\ length\ of\ words\r\n
+comment3.params=target
+comment3.target=void\ remove(java.lang.String)
+comment3.text=\r\n\ remove\ the\ String\ from\ the\ arraylist\ \r\n\ @param\ target\ to\ remove\ from\ array\ list\ \ \r\n
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment4.text=\r\n\ get\ the\ string\ of\ \r\n\ @return\ String\ after\ removing\ words\r\n
+numComments=5

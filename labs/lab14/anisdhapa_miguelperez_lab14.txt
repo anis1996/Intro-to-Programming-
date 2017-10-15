@@ -1,0 +1,31 @@
+Anis Dhapa - scriber
+Sebastian Mora - driver
+B 
+1. input comes from the add method.
+2.we cannot use this porgram for other data.
+3. there are all method static so you can use sepretly.
+4.code is shorter and easier to change your code and you can add extra stuff
+
+C.
+1. static 
+2. we intialize the random object at the same time making new 
+and remove from intializing 
+3.math.Random(7)
+6.we can call the myrandom class in cast method.
+ D .
+5.bluej desktop downloads jdk.8.0_51 picture templates workspace 
+cs46a documets ecplise music 
+public videos
+7.datasetanalyzer.java and dataset. java
+8.java 1.8.0_51
+10. it puts in number.
+11. java DataAnalyzer < phoenix-points.txt
+12. you can test faster and you get immedialtey results
+
+E
+3.cannot find the symbol dataset
+4.we imported the packej
+5. they are located in diffrent files 
+6.data analyzer -lab14d
+dataset - edu.sjsu.cs 
+7.the program runs and whiper dataset and dataanalyzer are in the same files.

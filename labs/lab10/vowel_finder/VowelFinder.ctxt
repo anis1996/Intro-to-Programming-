@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=newWord
+comment0.target=VowelFinder(java.lang.String)
+comment0.text=\r\n\ Constructs\ a\ word.\r\n\ @param\ newWord\ the\ word\ to\ be\ analyzed\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ findVowels()
+comment1.text=\r\n\ Cumulates\ all\ vowels\ of\ a\ word\ together\ into\ a\ string.\r\n\ @return\ string\ with\ all\ the\ vowels\ of\ a\ word\r\n
+numComments=2

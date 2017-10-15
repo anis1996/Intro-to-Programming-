@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.params=initialBalance\ id
+comment0.target=FeeBasedAccount(double,\ java.lang.String)
+comment1.params=amount
+comment1.target=void\ deposit(double)
+comment2.params=amount
+comment2.target=void\ withdraw(double)
+comment3.params=
+comment3.target=void\ endOfMonth()
+numComments=4

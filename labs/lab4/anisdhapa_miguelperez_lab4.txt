@@ -1,0 +1,145 @@
+anisdhapa- driver
+miguel perez - scriber
+
+4A
+5.totalvatiable is not local variable because we need that value for finding the average and newtotalscore is not instance variable because we do not need anymore after getting totalscore.
+4B
+5.public class RectangleViewer
+{
+   public static void main(String[] args)
+   {
+
+      Ellipse box = new Ellipse(5, 10, 30, 30);
+      box.draw();
+
+      Ellipse box2 = new Ellipse(20, 35, 30, 30);
+      box2.draw();
+
+
+   }
+}
+6.public class RectangleViewer
+{
+   public static void main(String[] args)
+   {
+
+      Ellipse box = new Ellipse(5, 10, 30, 30);
+      box.draw();
+
+      Ellipse box2 = new Ellipse(20, 35, 60, 60);
+      box2.draw();
+
+
+   }
+}
+7.B
+public class RectangleViewer
+{
+   public static void main(String[] args)
+   {
+
+      Ellipse box = new Ellipse(35, 50, 30, 30);
+      box.draw();
+
+      Ellipse box2 = new Ellipse(20, 35, 60, 60);
+      box2.draw();
+
+
+   }
+}
+3B
+1.public class BullseEyeViewer
+{
+   public static void main(String[] args)
+   {
+
+      Ellipse box = new Ellipse(35, 50, 30, 30);
+      box.draw();
+
+      Ellipse box2 = new Ellipse(20, 35, 60, 60);
+      box2.draw();
+
+
+   }
+}
+3.public class BullseEyeViewer
+{
+   public static void main(String[] args)
+   {
+
+      Ellipse box = new Ellipse(35, 50, 30, 30);
+      box.setColor(Color.RED);
+      box.fill();
+      Ellipse box2 = new Ellipse(20, 35, 60, 60);
+      box2.setColor(Color.RED);
+      box2.draw();
+
+
+   }
+}
+4.public class BullseEyeViewer
+{
+   public static void main(String[] args)
+   {
+      Ellipse box = new Ellipse(20, 35, 60, 60);
+      box.setColor(Color.BLACK);
+      box.fill();
+      Ellipse box2 = new Ellipse(35, 50, 30, 30);
+      box2.setColor(Color.RED);
+      box2.fill();
+      
+     
+
+
+   }
+}
+5.public class BullseEyeViewer
+{
+   public static void main(String[] args)
+   {
+      Ellipse box = new Ellipse(5, 20, 90, 90);
+      box.setColor(Color.BLUE);
+      box.fill();
+      Ellipse box2 = new Ellipse(20, 35, 60, 60);
+      box2.setColor(Color.WHITE);
+      box2.fill();
+      Ellipse box3 = new Ellipse(35, 50, 30, 30);
+      box3.setColor(Color.RED);
+      box3.fill();
+      
+     
+
+
+   }
+}
+4D
+2. public void draw()
+   {              
+      Ellipse biggestCircle = new Ellipse(x - 90 / 2, y - 90 / 2, 90, 90);
+      biggestCircle.setColor(Color.BLUE);
+      biggestCircle.fill();
+   }
+4. Ellipse biggestCircle = new Ellipse(x - 90 / 2, y - 90 / 2, 90, 90);
+      biggestCircle.setColor(Color.BLUE);
+      biggestCircle.fill();
+      Ellipse smallerCircle = new Ellipse(x - 60 / 2, y - 60 / 2, 60, 60);
+      smallerCircle.setColor(Color.WHITE);
+      smallerCircle.fill();
+
+5.Ellipse biggestCircle = new Ellipse(x - 90 / 2, y - 90 / 2, 90, 90);
+      biggestCircle.setColor(Color.BLUE);
+      biggestCircle.fill();
+      Ellipse smallerCircle = new Ellipse(x - 60 / 2, y - 60 / 2, 60, 60);
+      smallerCircle.setColor(Color.WHITE);
+      smallerCircle.fill();
+      Ellipse smallestCircle = new Ellipse(x - 30 / 2, y - 30 / 2, 30, 30);
+      smallestCircle.setColor(Color.RED);
+      smallestCircle.fill();
+4E.
+        biggestCircle.grow(growAmount/2,growAmount/2);
+       
+        smallerCircle.grow(growAmount/3,growAmount/3);
+
+        smallestCircle.grow(growAmount/6,growAmount/6);
+
+       

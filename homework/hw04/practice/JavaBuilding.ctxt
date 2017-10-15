@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=dimension
+comment0.target=JavaBuilding(double)
+comment0.text=\r\n\ constructs\ a\ JavaBuliding\ with\ given\ dimension\r\n\ @param\ dimension\ the\ dimension\ of\ Javabuilding\ \r\n
+comment1.params=
+comment1.target=double\ getSurfaceArea()
+comment1.text=\r\n\ get\ the\ surface\ area\ of\ the\ JavaBuilding\ \r\n\ @return\ the\ surface\ area\r\n
+comment2.params=
+comment2.target=double\ getCost()
+comment2.text=\r\n\ get\ total\ cost\ of\ painting\ the\ Javabuilding\ \r\n\ @return\ total\ cost\ of\ painting\ \r\n
+comment3.params=amount
+comment3.target=void\ increaseSide(double)
+comment3.text=\r\n\ increase\ the\ size\ of\ dimension\ by\ given\ amount\r\n\ @param\ amount\ amount\ to\ add\ in\ dimension\r\n
+numComments=4

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=data
+comment0.target=NumberArray(int[])
+comment0.text=\r\n\ intilaize\ the\ array\ \r\n\ @param\ data\ to\ intilaize\ the\ data\ \r\n
+comment1.params=
+comment1.target=int\ getLast()
+comment1.text=\r\n\ get\ the\ last\ element\ in\ the\ array\ \r\n\ @return\ the\ last\ element\ \r\n
+comment2.params=index1\ index2
+comment2.target=void\ swap(int,\ int)
+comment2.text=\r\n\ swap\ the\ elements\ \r\n\ @param\ index1\ to\ swap\ with\ index2\r\n\ @param\ index2\ to\ swap\ with\ index1\r\n
+comment3.params=target
+comment3.target=boolean\ contains(int)
+comment3.text=\r\n\ check\ the\ element\ is\ in\ the\ array\ or\ not\ \r\n\ @param\ target\ to\ check\ element\ \r\n\ @return\ boolean\ false\ if\ there\ is\ not\ any\ mathcing\ array\ \r\n
+comment4.params=
+comment4.target=int\ product()
+comment4.text=\r\n\ get\ the\ product\ of\ array\ \r\n\ @return\ the\ product\ of\ array\ \r\n
+comment5.params=
+comment5.target=java.lang.String\ toString()
+comment5.text=\r\n@return\ the\ String\ \r\n
+numComments=6

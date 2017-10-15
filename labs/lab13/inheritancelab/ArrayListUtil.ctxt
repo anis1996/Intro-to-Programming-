@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=words
+comment0.target=void\ removeAdjacentDuplicates(java.util.ArrayList)
+comment0.text=\r\n\ \ \ \ Removes\ adjacent\ duplicates\ from\ an\ array\ list\ of\ strings.\r\n\ \ \ \ @param\ word\ an\ array\ list\ of\ strings\r\n
+numComments=1

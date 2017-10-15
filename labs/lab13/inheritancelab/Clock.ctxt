@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Clock()
+comment1.params=
+comment1.target=void\ update()
+comment2.params=
+comment2.target=int\ getHours()
+comment3.params=hours
+comment3.target=void\ setHours(int)
+comment4.params=newX\ newY
+comment4.target=void\ moveTo(int,\ int)
+comment5.params=
+comment5.target=Rectangle\ getBounds()
+comment6.params=
+comment6.target=void\ draw()
+comment7.params=
+comment7.target=int\ getX()
+comment8.params=
+comment8.target=int\ getY()
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=10

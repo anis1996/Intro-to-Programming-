@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name
+comment0.target=Parrot(java.lang.String)
+comment0.text=\r\n\ give\ the\ intialname\ of\ Parrot\ \r\n\ @param\ name\ set\ intialname\ to\ Parrot.\r\n
+comment1.params=
+comment1.target=java.lang.String\ getName()
+comment1.text=\r\n\ get\ the\ name\ of\ the\ Parrot\ \r\n\ @return\ the\ name\ of\ the\ Parrot\r\n
+comment2.params=newName
+comment2.target=void\ setName(java.lang.String)
+comment2.text=\r\n\ set\ a\ new\ name\ of\ Parrot\ \r\n\ @param\ newName\ set\ newname\ to\ parrot\r\n
+comment3.params=
+comment3.target=java.lang.String\ whatDoYouWant()
+comment3.text=\r\n\ get\ the\ string\ with\ name\ +\ "wants\ a\ cracker".\r\n\ @return\ return\ the\ string\ \r\n
+comment4.params=whatToDo
+comment4.target=java.lang.String\ doIt(java.lang.String)
+comment4.text=\r\n\ return\ the\ string\ with\ "Pretty"\ +\ name\ +\ "does\ not"\ +\ whatToDo.\r\n\ @return\ return\ the\ string\ \r\n\ @param\ whatToDo\ give\ instruction\ whatToDo\r\n
+numComments=5

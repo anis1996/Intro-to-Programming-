@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=spanishWord
+comment0.target=SpanishTranslator(java.lang.String)
+comment0.text=\r\n\ initialize\ the\ spanishString\ \r\n\ @param\ spanishWord\ spanishWord\ to\ initialize\ the\ spanishString\ \r\n
+comment1.params=
+comment1.target=java.lang.String\ getSpanish()
+comment1.text=\r\n\ returns\ the\ original\ spanish\ word\ \r\n\ @return\ spanishString\ which\ is\ original\ spanish\ word\r\n
+comment2.params=spanishWord
+comment2.target=void\ setSpanish(java.lang.String)
+comment2.text=\r\n\ set\ the\ new\ name\ to\ the\ spanishString\ \r\n\ @param\ spanishWord\ spanishWord\ to\ set\ new\ spanishString\ \r\n
+comment3.params=
+comment3.target=java.lang.String\ getEnglish()
+comment3.text=\r\n\ translate\ few\ spanish\ words\ to\ english\ words\ \r\n\ @return\ spanish\ word\ in\ english\ word\r\n
+numComments=4

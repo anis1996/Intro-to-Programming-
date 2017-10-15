@@ -1,0 +1,116 @@
+Anis Dhapa - driver
+Miguel Perez - scriber
+
+A 
+3. public void makePattern()
+   {
+      for (int i = 0; i < ROWS; i++)
+	  {
+	      
+         for (int j = 0; j < COLUMNS; j++)
+		 {
+			if(i % 3 ==0)
+			{
+			  
+            colors[i][j] = Color.BLUE;
+        }else if(i % 3 == 1)
+        {
+            colors[i][j] = Color.RED;
+        }else 
+        {
+             colors[i][j] = Color.WHITE;
+        }
+		 }
+	  }
+
+
+   }
+
+B
+4.public class PictureViewer
+{
+   public static void main(String[] args)
+   {
+        Picture blimp = new Picture("blimp.jpg");
+        int[][] grayscale = blimp.getGrayLevels();
+        
+        for (int i = 0; i < blimp.getHeight(); i++)
+        {
+            for(int j = 0; j < blimp.getWidth();j++)
+            {
+                  grayscale[i][j] = 255 - grayscale[i][j];
+            }
+        }
+        Picture grayBlimp = new Picture(grayscale);
+        grayBlimp.draw();      
+   }
+}
+C 
+6.public class PictureViewer
+{
+   public static void main(String[] args)
+   {
+        Picture blimp = new Picture("blimp.jpg");
+         
+        int[][] grayscale = blimp.getGrayLevels();
+        
+        for (int i = 0; i < blimp.getHeight(); i++)
+        {
+            for(int j = 0; j < blimp.getWidth()/2;j++)
+            {
+               int s =  grayscale[i][j] ;
+                 grayscale[i][j] = grayscale[i][ blimp.getWidth()-j -1];
+                 grayscale[i][ blimp.getWidth()-j-1] = s;
+            }
+        }
+        Picture grayBlimp = new Picture(grayscale);
+        grayBlimp.draw();      
+   }
+}
+D 
+7.public class PictureViewer
+{
+   public static void main(String[] args)
+   {
+        Picture blimp = new Picture("blimp.jpg");
+         
+        int[][] grayscale = blimp.getGrayLevels();
+        int[][] s = new int[blimp.getWidth()][blimp.getHeight()] ;
+        for (int i = 0; i < blimp.getWidth()-1; i++)
+        {
+            for(int j = 0; j < blimp.getHeight()-1;j++)
+            {
+                 s[blimp.getWidth()-i-1][ blimp.getHeight()-j-1] = grayscale[j][blimp.getWidth()-i-1];
+                                  
+            }
+        }
+         
+        Picture grayBlimp = new Picture(s);
+        grayBlimp.draw();      
+   }
+}
+E
+1.public class PictureViewer
+{
+    public static void main(String[] args)
+    {
+        Picture castle = new Picture("castle.jpg");
+        Picture dino = new Picture("dinosaur.jpg");
+        int[][] grayscale = castle.getGrayLevels();
+        int[][] grayscale2 = dino.getGrayLevels();
+        int[][] result = new int [dino.getWidth()][dino.getHeight()];
+        for (int i = 0; i<dino.getWidth()-1;i++)
+        {
+            for (int j = 0; j<dino.getHeight()-1;j++)
+            {
+                result[i][j] = (grayscale[i][j] + grayscale2[i][j]) / 2;
+            }
+        }
+        Picture grayDino = new Picture(result);
+        grayDino.draw();      
+    }
+}
+
+
+
+

@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=ShoppingCart()
+comment0.text=\r\n\ construct\ a\ shoppingcart\ with\ a\ zero\ subtotal\ and\ zero\ item\ in\ contents.\r\n
+comment1.params=cost
+comment1.target=void\ add(double)
+comment1.text=\r\n\ add\ cost\ into\ the\ subtotal\ of\ shoppingcart\ and\ modify\ contents\ list\ with\ given\ string.\r\n\ @param\ cost\ the\ cost\ to\ add\ in\ subtotal.\r\n
+comment2.params=cost
+comment2.target=void\ remove(double)
+comment2.text=\r\n\ remove\ cost\ from\ the\ subtotal\ of\ shoppingcart\ and\ modify\ the\ contents\ list\ with\ given\ string.\r\n\ @param\ cost\ the\ cost\ to\ remove\ from\ subtotal.\r\n
+comment3.params=
+comment3.target=double\ getSubtotal()
+comment3.text=\r\n\ get\ the\ current\ subtotal\ of\ the\ shoppingcart.\r\n\ @return\ the\ current\ subtotal\r\n
+comment4.params=
+comment4.target=double\ getTotal()
+comment4.text=\r\n\ get\ total\ with\ tax\ \r\n\ @return\ total\ with\ tax\r\n
+comment5.params=
+comment5.target=java.lang.String\ getContents()
+comment5.text=\r\n\ get\ the\ list\ of\ the\ add\ and\ remove\ items\ with\ total\ at\ the\ end\r\n\ @return\ contents\ get\ the\ contents\ of\ items\ and\ total\r\n
+comment6.params=
+comment6.target=void\ reset()
+comment6.text=\r\n\ reset\ the\ contents\ list\ to\ nothing\ and\ subtotal\ to\ 0\r\n\ \r\n
+numComments=7

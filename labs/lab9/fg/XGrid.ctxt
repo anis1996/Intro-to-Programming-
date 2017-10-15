@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=theX\ theY
+comment0.target=XGrid(int,\ int)
+comment1.params=
+comment1.target=void\ getRandomColor()
+comment2.params=
+comment2.target=void\ draw()
+numComments=3

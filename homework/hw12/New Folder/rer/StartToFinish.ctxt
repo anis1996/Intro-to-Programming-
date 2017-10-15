@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=myString
+comment0.target=StartToFinish(java.lang.String)
+comment0.text=\r\n\ Constructs\ a\ StartToFinish\ objec\r\n\ @param\ myString\ the\ phase\ for\ this\ object\r\n
+comment1.params=
+comment1.target=java.lang.String\ firstLetters()
+comment1.text=\r\n\ @return\ the\ the\ first\ letter\ of\ the\ string\ \r\n
+comment2.params=
+comment2.target=java.lang.String\ lastLetters()
+comment2.text=\r\n\ @return\ the\ last\ word\ of\ ring\ \r\n
+numComments=3

@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Text()
+comment1.params=
+comment1.target=void\ removeAllDuplicates()
+comment2.params=
+comment2.target=java.util.ArrayList\ getWords()
+comment2.text=\r\n\ \ \ \ Gets\ the\ words\ from\ this\ text.\r\n\ \ \ \ @return\ an\ array\ list\ containing\ the\ words\r\n
+comment3.params=
+comment3.target=void\ pick()
+comment3.text=\r\n\ \ \ \ Lets\ the\ user\ pick\ a\ file\ for\ loading\r\n
+comment4.params=source
+comment4.target=boolean\ load(java.lang.String)
+comment4.text=\r\n\ \ \ \ Loads\ a\ file.\r\n\ \ \ \ @param\ source\ a\ URL\ or\ file\ name\r\n
+comment5.params=
+comment5.target=void\ explore()
+comment5.text=\r\n\ \ \ \ Displays\ the\ words\ in\ a\ text\ area\r\n
+numComments=6

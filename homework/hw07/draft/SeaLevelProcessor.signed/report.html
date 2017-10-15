@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Version" content="0.3"/>
+<meta name="Submission" content="16101319174936884027014845478"/>
+<meta name="Problem" content="16071622326k3k5hd98fshux4c33z8brs6"/>
+<meta name="Level" content="1"/>
+<meta name="Time" content="2016-10-14T02:17:54Z"/>
+<meta name="ID" content="SeaLevelProcessor"/>
+<meta name="User" content="16082910512695083600830930671"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header run">Program runs</p>
+<p class="header run">Testing SeaLevelProcessor.java</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: Enter the sea level or Q to quit: 725
+Enter the sea level or Q to quit: -5
+Enter the sea level or Q to quit: 14180
+Enter the sea level or Q to quit: 0
+Enter the sea level or Q to quit: -1388
+Enter the sea level or Q to quit: -36070
+Enter the sea level or Q to quit: 29029
+Enter the sea level or Q to quit: 82
+Enter the sea level or Q to quit: 1.1
+All done
+</pre>
+<span class="pass">pass</span><p class="item">Test 1</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: Enter the sea level or Q to quit: 725
+Enter the sea level or Q to quit: 14180
+Enter the sea level or Q to quit: 29029
+Enter the sea level or Q to quit: 82
+Enter the sea level or Q to quit: x
+All done
+</pre>
+<span class="pass">pass</span><p class="item">Test 2</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: Enter the sea level or Q to quit: x
+All done
+</pre>
+<span class="pass">pass</span><p class="item">Test 3</p>
+<p class="caption">Command line arguments:</p>
+<pre class="output">Output: Enter the sea level or Q to quit: -282
+Enter the sea level or Q to quit: x
+All done
+</pre>
+<span class="pass">pass</span><p class="header studentFiles">Student files</p>
+<p class="caption">SeaLevelProcessor.java:</p>
+<table class="file"><tr><td><pre><span class="linenumber">  1</span>
+<span class="linenumber">  2</span>
+<span class="linenumber">  3</span>
+<span class="linenumber">  4</span>
+<span class="linenumber">  5</span>
+<span class="linenumber">  6</span>
+<span class="linenumber">  7</span>
+<span class="linenumber">  8</span>
+<span class="linenumber">  9</span>
+<span class="linenumber"> 10</span>
+<span class="linenumber"> 11</span>
+<span class="linenumber"> 12</span>
+<span class="linenumber"> 13</span>
+<span class="linenumber"> 14</span>
+<span class="linenumber"> 15</span>
+<span class="linenumber"> 16</span>
+</pre></td><td><pre>import java.util.Scanner;
+
+public class SeaLevelProcessor
+{
+    public static void main(String[] args)
+    {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Enter the sea level or Q to quit: ");
+        while (in.hasNextInt())
+        { 
+            int number = in.nextInt();
+            System.out.print("Enter the sea level or Q to quit: ");
+        }
+        System.out.println("All done");
+    }
+}
+</pre></td></tr></table>
+<p class="header score">Score</p>
+<p class="score">4/4</p>
+<p class="download"><a href="SeaLevelProcessor.signed.zip">Download</a></p>
+<div class="footnotes"><div class="footnote">2016-10-14T02:17:54Z</div>
+</div>
+</body></html>

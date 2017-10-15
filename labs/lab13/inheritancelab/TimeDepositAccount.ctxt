@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=money\ Id\ time
+comment0.target=TimeDepositAccount(double,\ java.lang.String,\ int)
+comment1.params=amount
+comment1.target=void\ withdraw(double)
+comment2.params=amount
+comment2.target=void\ deposit(double)
+comment3.params=
+comment3.target=void\ endOfMonth()
+comment4.params=
+comment4.target=int\ getTimeToMaturity()
+numComments=5

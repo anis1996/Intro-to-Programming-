@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=dx\ dy\ p
+comment0.target=void\ visualTranslate(int,\ int,\ Picture)
+comment1.params=
+comment1.target=void\ run()
+comment2.params=e
+comment2.target=boolean\ add(Picture)
+comment3.params=index\ element
+comment3.target=void\ add(int,\ Picture)
+comment4.params=index
+comment4.target=Picture\ remove(int)
+comment5.params=index\ element
+comment5.target=Picture\ set(int,\ Picture)
+numComments=6

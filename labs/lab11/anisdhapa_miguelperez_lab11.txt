@@ -1,0 +1,36 @@
+Anis Dhapa - scriber 
+Miguel Perez - driver
+
+part A
+2.array 
+3.int[] twoArray = new int[];
+4.finding even and 
+finding odd and 
+counting
+5.  Element Separators
+6.  int[] s = new int[2];
+        int oddcounter = 0;
+        int evencouner = 0; 
+ s[0] = evencouner ;
+       s[1] = oddcounter;
+        return s;
+7.if (values[i] % 2 == 0)
+            {
+                evencouner++;
+            }else
+            {
+                 oddcounter++;
+            }
+part B 
+1. go to all element in arrray and find the duplicates and remove the duplicates and get the orginal word without duplicates 
+2. yes we passed all tests
+3. yes we did pass all tests.
+
+part c 
+2. we decided to add new variable which hold the old number and we assign that number to swap number and it works.
+part d
+2.use the for loop which goes until the length of arraylist 
+take the first element and move it to last place 
+4. use the for loop which goes to length/2
+save the picture i in new variable and set the i as i + length/2 
+at the end set the i+ length/2 variable as new variable.

@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<meta name="Version" content="0.3"/>
+<meta name="Submission" content="16092114436130936334637033020"/>
+<meta name="Problem" content="16070512387x31z032idj1hyd6m5trylyq5"/>
+<meta name="Level" content="1"/>
+<meta name="Time" content="2016-09-21T21:43:44Z"/>
+<meta name="ID" content="Emblem"/>
+<meta name="User" content="16082910512695083600830930671"/>
+<style type="text/css">
+.header {font-weight: bold; font-size: 1.2em; }
+.item {font-weight: bold;}
+.pass {color: green;}
+.fail {color: red;}
+table.file td {padding-right: 1em; background: #FFF; }
+.linenumber {color: gray;}
+.footnote {font-size: 0.7em;}
+table {font-size: 0.9em;}
+td, th { background: #EEE; margin: 0.5em; padding: 0.25em;}
+table.output td {vertical-align: top;}
+div.footnotes { border-top: 1px solid gray; padding-top: 0.5em; }
+</style>
+<title>Report</title>
+</head>
+<body>
+<p class="header tester">Testers</p>
+<p class="item">Running EmblemTester.java</p>
+<pre class="output">James
+<span class="pass">Expected: James</span>
+T
+<span class="pass">Expected: T</span>
+Kirk
+<span class="pass">Expected: Kirk</span>
+T
+<span class="pass">Expected: T</span>
+J
+<span class="pass">Expected: J</span>
+Abrams
+<span class="pass">Expected: Abrams</span>
+</pre>
+<p class="header checkStyle">CheckStyle</p>
+<pre class="output">Emblem.java: Ok</pre>
+<span class="pass">pass</span><p class="header studentFiles">Student files</p>
+<p class="caption">Emblem.java:</p>
+<table class="file"><tr><td><pre><span class="linenumber">  1</span>
+<span class="linenumber">  2</span>
+<span class="linenumber">  3</span>
+<span class="linenumber">  4</span>
+<span class="linenumber">  5</span>
+<span class="linenumber">  6</span>
+<span class="linenumber">  7</span>
+<span class="linenumber">  8</span>
+<span class="linenumber">  9</span>
+<span class="linenumber"> 10</span>
+<span class="linenumber"> 11</span>
+<span class="linenumber"> 12</span>
+<span class="linenumber"> 13</span>
+<span class="linenumber"> 14</span>
+<span class="linenumber"> 15</span>
+<span class="linenumber"> 16</span>
+<span class="linenumber"> 17</span>
+<span class="linenumber"> 18</span>
+<span class="linenumber"> 19</span>
+<span class="linenumber"> 20</span>
+<span class="linenumber"> 21</span>
+<span class="linenumber"> 22</span>
+<span class="linenumber"> 23</span>
+<span class="linenumber"> 24</span>
+<span class="linenumber"> 25</span>
+<span class="linenumber"> 26</span>
+<span class="linenumber"> 27</span>
+<span class="linenumber"> 28</span>
+<span class="linenumber"> 29</span>
+<span class="linenumber"> 30</span>
+<span class="linenumber"> 31</span>
+<span class="linenumber"> 32</span>
+<span class="linenumber"> 33</span>
+<span class="linenumber"> 34</span>
+<span class="linenumber"> 35</span>
+<span class="linenumber"> 36</span>
+<span class="linenumber"> 37</span>
+<span class="linenumber"> 38</span>
+<span class="linenumber"> 39</span>
+<span class="linenumber"> 40</span>
+<span class="linenumber"> 41</span>
+<span class="linenumber"> 42</span>
+<span class="linenumber"> 43</span>
+<span class="linenumber"> 44</span>
+<span class="linenumber"> 45</span>
+<span class="linenumber"> 46</span>
+<span class="linenumber"> 47</span>
+<span class="linenumber"> 48</span>
+<span class="linenumber"> 49</span>
+<span class="linenumber"> 50</span>
+<span class="linenumber"> 51</span>
+<span class="linenumber"> 52</span>
+<span class="linenumber"> 53</span>
+<span class="linenumber"> 54</span>
+<span class="linenumber"> 55</span>
+</pre></td><td><pre>/**
+ * models a Emblem which gives full name and first charcter from first, middle and last name 
+ */
+public class Emblem{
+    private String firstName;
+    private String middleInitial;
+    private String lastName;
+    /**
+     * initialize the firstname, middleintial and lastname
+     * @param theFirst intialize the firstName 
+     * @param theMiddleInitial intialize the middleIntial
+     * @param theLast intialize the lastName
+     */
+    public Emblem(String theFirst, String theMiddleInitial, String theLast){
+        firstName = theFirst;
+        middleInitial = theMiddleInitial;
+        lastName = theLast;
+    }
+
+    /**
+     * initiallize the firstname and lastname without middleinitial
+     * @param theFirst intialize the firstname
+     * @param theLast intialize the lastname
+     */
+    public Emblem(String theFirst, String theLast){
+        firstName = theFirst;
+        middleInitial = "";
+        lastName = theLast;
+    }
+
+    /**
+     * get the first name 
+     * @return firstName
+     */
+    public String getFirst(){
+        return firstName;
+    }
+
+    /**
+     * get the middleInitial
+     * @return middleInitial
+     */
+    public String getMiddleInitial(){
+        return middleInitial;
+    }
+
+    /**
+     * get the lastname
+     * @return lastName
+     */
+    public String getLast(){
+        return lastName;
+    }
+
+}
+</pre></td></tr></table>
+<p class="header providedFiles">Provided files</p>
+<p class="caption">EmblemTester.java:</p>
+<table class="file"><tr><td><pre><span class="linenumber">  1</span>
+<span class="linenumber">  2</span>
+<span class="linenumber">  3</span>
+<span class="linenumber">  4</span>
+<span class="linenumber">  5</span>
+<span class="linenumber">  6</span>
+<span class="linenumber">  7</span>
+<span class="linenumber">  8</span>
+<span class="linenumber">  9</span>
+<span class="linenumber"> 10</span>
+<span class="linenumber"> 11</span>
+<span class="linenumber"> 12</span>
+<span class="linenumber"> 13</span>
+<span class="linenumber"> 14</span>
+<span class="linenumber"> 15</span>
+<span class="linenumber"> 16</span>
+<span class="linenumber"> 17</span>
+<span class="linenumber"> 18</span>
+<span class="linenumber"> 19</span>
+<span class="linenumber"> 20</span>
+<span class="linenumber"> 21</span>
+<span class="linenumber"> 22</span>
+<span class="linenumber"> 23</span>
+<span class="linenumber"> 24</span>
+<span class="linenumber"> 25</span>
+<span class="linenumber"> 26</span>
+<span class="linenumber"> 27</span>
+</pre></td><td><pre>
+/**
+ * Tests the Emblem class
+ * 
+ * @author Kathleen O'Brien
+ */
+public class EmblemTester
+{
+    public static void main(String[] args)
+    {
+        Emblem name = new Emblem("James", "T", "Kirk");
+        System.out.println(name.getFirst());
+        System.out.println("Expected: James");
+        System.out.println(name.getMiddleInitial());
+        System.out.println("Expected: T");
+        System.out.println(name.getLast());
+        System.out.println("Expected: Kirk");
+        
+        name = new Emblem("T", "J", "Abrams");
+        System.out.println(name.getFirst());
+        System.out.println("Expected: T");
+        System.out.println(name.getMiddleInitial());
+        System.out.println("Expected: J");
+        System.out.println(name.getLast());
+        System.out.println("Expected: Abrams");
+    }
+}
+</pre></td></tr></table>
+<p class="header score">Score</p>
+<p class="score">7/7</p>
+<p class="download"><a href="Emblem.signed.zip">Download</a></p>
+<div class="footnotes"><div class="footnote">2016-09-21T21:43:44Z</div>
+</div>
+</body></html>

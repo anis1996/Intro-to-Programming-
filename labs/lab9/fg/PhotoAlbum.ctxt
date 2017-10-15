@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=PhotoAlbum()
+comment0.text=\r\n\ intialize\ the\ array\ list\ of\ photos\r\n
+comment1.params=picture
+comment1.target=void\ add(Picture)
+comment1.text=\r\n\ add\ the\ picture\ to\ the\ array\ list\ \r\n\ @param\ picture\ to\ add\ into\ array\ list.\r\n
+comment2.params=
+comment2.target=void\ draw()
+comment2.text=\r\n\ Draws\ the\ pictures\ in\ the\ PhotoAlbum\ horizontally\r\n
+comment3.params=pic
+comment3.target=double\ area(Picture)
+comment4.params=
+comment4.target=double\ totalArea()
+comment4.text=\r\n\ get\ the\ total\ area\ of\ array\ list's\ pictures.\r\n\ @return\ the\ area\ of\ of\ pictures\ \r\n
+comment5.params=
+comment5.target=Picture\ largest()
+comment5.text=\r\n\ get\ the\ largest\ picture\ of\ array\ list\ and\ area\ of\ that\ picture\ \r\n\ @return\ the\ largest\ picture\ and\ area\ of\ that\ picture.\ \r\n
+numComments=6

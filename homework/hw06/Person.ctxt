@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=name\ gender\ age
+comment0.target=Person(java.lang.String,\ java.lang.String,\ int)
+comment0.text=\r\n\ Consructs\ a\ Person\ object\r\n\ @param\ name\ the\ name\ of\ the\ person\r\n\ @param\ gender\ the\ gender\ of\ the\ person\ either\ \r\n\ m\ for\ male\ or\ f\ for\ female\r\n\ @param\ age\ the\ age\ of\ the\ person\r\n
+comment1.params=
+comment1.target=int\ getAge()
+comment1.text=\r\n\ gets\ the\ age\ of\ this\ Person\r\n\ @return\ the\ age\ of\ this\ Person\r\n
+comment2.params=
+comment2.target=java.lang.String\ getGender()
+comment2.text=\r\n\ gets\ the\ gender\ of\ this\ Person\r\n\ @return\ the\ gender\ of\ this\ Person\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment3.text=\r\n\ gets\ the\ name\ of\ this\ Person\r\n\ @return\ the\ name\ of\ this\ Person\r\n
+comment4.params=
+comment4.target=void\ birthday()
+comment4.text=\r\n\ Increases\ the\ age\ of\ this\ Person\ by\ 1\ year\r\n
+numComments=5

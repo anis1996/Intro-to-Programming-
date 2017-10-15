@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=balance\ id
+comment0.target=SavingsAccount(double,\ java.lang.String)
+comment0.text=\r\n\ intilize\ the\ variables\ \r\n
+comment1.params=
+comment1.target=void\ endOfMonth()
+comment1.text=\r\n\ add\ the\ interest\ in\ account\ \r\n
+numComments=2

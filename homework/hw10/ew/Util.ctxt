@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=array
+comment0.target=int\ max(int[])
+comment0.text=\r\n\ check\ the\ all\ element\ in\ the\ given\ array\ and\ find\ maximu\ value\r\n\ @param\ array\ to\ check\ the\ array\ \r\n\ @return\ the\ maximum\ value\ in\ array\ \r\n
+comment1.params=array\ target
+comment1.target=boolean\ contains(java.lang.String[],\ java.lang.String)
+comment1.text=\r\n\ check\ the\ given\ string\ is\ in\ array\ or\ not\ \r\n\ @param\ array\ to\ check\ the\ list\ \r\n\ @param\ target\ to\ check\ the\ word\ is\ in\ array\ or\ not\ \r\n\ @return\ the\ boolean\ with\ false\ or\ true\r\n
+comment2.params=list\ letter
+comment2.target=java.util.ArrayList\ wordsStartingWith(java.util.ArrayList,\ char)
+comment2.text=\r\n\ check\ the\ arraylist\ and\ get\ the\ string\ which\ start\ from\ given\ letter\ \r\n\ @param\ list\ to\ check\ the\ arraylist\ \r\n\ @param\ letter\ to\ check\ and\ see\ \ how\ many\ words\ start\ from\ that\ character\r\n\ @return\ the\ arraylist\ including\ all\ words\ which\ start\ from\ given\ character.\r\n
+numComments=3
